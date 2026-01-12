@@ -81,8 +81,8 @@ input {
 h1 {
 
     color: white;
-    margin: 0;
     margin-top: 10px;
+
 }
 
 @media screen and (max-width:600px) {
@@ -95,10 +95,7 @@ h1 {
 
     }
 
-    .formTag {
 
-        height: 100vh;
-    }
 
 
     span {
