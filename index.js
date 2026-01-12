@@ -4,9 +4,6 @@ const response = document.getElementById("response")
 const getSpan = document.getElementById("getSpan")
 
 
-
-
-
 getButton.addEventListener("click", (evt) => {
 
     evt.preventDefault()
@@ -14,7 +11,7 @@ getButton.addEventListener("click", (evt) => {
 
 
 
-    response.innerText = getInputvalue.value;
+    response.innerText = `Hello ${getInputvalue.value} Welcome to CyberDude!`;
 
     let regulrExpression = /^[a-zA-Z]+$/
 
