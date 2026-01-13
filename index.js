@@ -8,6 +8,9 @@ getButton.addEventListener("click", (evt) => {
 
     evt.preventDefault()
 
+    getInputvalue.style.display = "none";
+    getButton.style.display = "none";
+    response.style.display = "block"
 
 
 
